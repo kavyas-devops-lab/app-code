@@ -1,0 +1,10 @@
+name: Hello World Workflow
+on:
+  push:
+    branches: [ main, master ]  # Optional: specify branches
+
+jobs:
+  hello-world:
+    uses: kavyas-devops-lab/Global-templates/.github/workflows/hello-world.yml@main
+    permissions:
+      contents: read
