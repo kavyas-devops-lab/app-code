@@ -4,7 +4,7 @@ on:
     branches: [ main, master ]  # Optional: specify branches
 
 jobs:
-  hello-world:
+  reusable-workflow:
     uses: kavyas-devops-lab/Global-templates/.github/workflows/reusable-workflow.yml@main
     permissions:
       contents: read
